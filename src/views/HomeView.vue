@@ -1,18 +1,24 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
+    <!-- :src でバインド -->
+    <img :src="logo" alt="Vue logo" />
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
 import HelloWorld from '@/components/HelloWorld.vue'
+// Webpack がバンドルしてくれるよう import
+import logo from '@/assets/logo.png'
 
 export default {
   name: 'HomeView',
-  components: {
-    HelloWorld
+  components: { HelloWorld },
+  data() {
+    return {
+      logo
+    }
   }
 }
 </script>
+
