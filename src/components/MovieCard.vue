@@ -1,4 +1,3 @@
-<!-- src/components/MovieCard.vue -->
 <template>
   <v-card>
     <v-img :src="movie.poster" height="300px" />

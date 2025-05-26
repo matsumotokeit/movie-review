@@ -1,4 +1,3 @@
-<!-- src/components/SearchBar.vue -->
 <template>
   <v-row align="center" justify="center" class="my-4">
     <v-col cols="8" sm="6" md="4">

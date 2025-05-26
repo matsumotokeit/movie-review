@@ -1,0 +1,22 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "君の名は。",
+      "year": 2016,
+      "poster": "https://www.kiminona.com/images/top/sp_main_vsl01.jpg"
+    },
+    {
+      "id": 2,
+      "title": "となりのトトロ",
+      "year": 1988,
+      "poster": "https://hopely.jp/up/images/character/images/ym45fb2sbhy9yzk6j5je6rmko0ivlgnen1c575j1unnntgydfc.png"
+    },
+    {
+      "id": 3,
+      "title": "千と千尋の神隠し",
+      "year": 2001,
+      "poster": "https://www.ghibli.jp/images/chihiro.jpg"
+    }
+  ]
+}
