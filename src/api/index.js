@@ -2,6 +2,6 @@
 import axios from 'axios'
 
 export const api = axios.create({
-  baseURL: 'http://localhost:3000',  // json-server の URL に合わせる
+  baseURL: 'http://localhost:3000', 
   timeout: 5000,
 })
